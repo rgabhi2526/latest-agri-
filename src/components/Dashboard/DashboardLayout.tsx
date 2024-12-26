@@ -5,7 +5,8 @@ import CropHealth from './CropHealth';
 import WaterLevels from './WaterLevels';
 import NutrientLevels from './NutrientLevels';
 import PestDetection from './PestDetection';
-import FarmMap from './FarmMap';
+
+import Weather from './Weather';
 import ActionableInsights from './ActionableInsights';
 
 export default function DashboardLayout() {
@@ -20,8 +21,8 @@ export default function DashboardLayout() {
             <WaterLevels />
             <NutrientLevels />
             <PestDetection />
-            <FarmMap />
             <ActionableInsights />
+            <Weather />
           </div>
         </main>
       </div>

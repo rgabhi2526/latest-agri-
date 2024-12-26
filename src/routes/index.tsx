@@ -10,6 +10,7 @@ import FarmMapping from '../pages/FarmMapping';
 import Analytics from '../pages/Analytics';
 import Alerts from '../pages/Alerts';
 import Settings from '../pages/Settings';
+import Weather from '../pages/Weather'; // Import the Weather page
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
       {
         path: '/settings',
         element: <Settings />,
+      },
+      {
+        path: '/weather',
+        element: <Weather />,
       },
     ],
   },
