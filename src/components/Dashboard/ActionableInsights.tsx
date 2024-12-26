@@ -25,7 +25,7 @@ export default function ActionableInsights() {
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
   const [loading, setLoading] = useState(true);
 
-  const city = 'Yakutsk';
+  const city = 'Madurai';
 
   const insights = [
     {
