@@ -5,7 +5,7 @@ import NutrientLevels from '../components/Dashboard/NutrientLevels';
 import PestDetection from '../components/Dashboard/PestDetection';
 import FarmMap from '../components/Dashboard/FarmMap';
 import ActionableInsights from '../components/Dashboard/ActionableInsights';
-
+import Weather from '../components/Dashboard/Weather';
 export default function Overview() {
   return (
     <div className="p-4">
@@ -16,6 +16,7 @@ export default function Overview() {
         <PestDetection />
         <FarmMap />
         <ActionableInsights />
+        <Weather />
       </div>
     </div>
   );

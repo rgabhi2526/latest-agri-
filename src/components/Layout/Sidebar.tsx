@@ -11,6 +11,7 @@ import {
   Bell, 
   Settings 
 } from 'lucide-react';
+import { Cloud } from 'lucide-react';
 
 const menuItems = [
   { icon: LayoutDashboard, label: 'Overview', path: '/' },
@@ -21,8 +22,10 @@ const menuItems = [
   { icon: Map, label: 'Farm Map', path: '/farm-mapping' },
   { icon: LineChart, label: 'Analytics', path: '/analytics' },
   { icon: Bell, label: 'Alerts', path: '/alerts' },
+  { icon: Cloud, label: 'Weather', path: '/weather' },
   { icon: Settings, label: 'Settings', path: '/settings' }
 ];
+
 
 export default function Sidebar() {
   return (
