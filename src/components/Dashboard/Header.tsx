@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Bell, Settings, User, Menu } from 'lucide-react';
 
 interface HeaderProps {
@@ -30,6 +31,24 @@ export default function Header({ onMenuClick, showMenuButton }: HeaderProps) {
           </button>
           <button className="p-2 hover:bg-gray-100 rounded-full">
             <User className="w-5 h-5 md:w-6 md:h-6 text-gray-600" />
+=======
+import { Bell, Settings, User } from 'lucide-react';
+
+export default function Header() {
+  return (
+    <header className="bg-white border-b border-gray-200 px-4 py-3">
+      <div className="flex items-center justify-between">
+        <h1 className="text-2xl font-semibold text-green-800">Farm Monitor</h1>
+        <div className="flex items-center space-x-4">
+          <button className="p-2 hover:bg-gray-100 rounded-full">
+            <Bell className="w-6 h-6 text-gray-600" />
+          </button>
+          <button className="p-2 hover:bg-gray-100 rounded-full">
+            <Settings className="w-6 h-6 text-gray-600" />
+          </button>
+          <button className="p-2 hover:bg-gray-100 rounded-full">
+            <User className="w-6 h-6 text-gray-600" />
+>>>>>>> e5202af4885ef584c97651adf360f35659edf107
           </button>
         </div>
       </div>

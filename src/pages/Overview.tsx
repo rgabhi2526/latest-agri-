@@ -9,6 +9,7 @@ import ActionableInsights from '../components/Dashboard/ActionableInsights';
 export default function Overview() {
   return (
     <div className="p-4">
+<<<<<<< HEAD
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="sm:col-span-2 lg:col-span-1">
           <CropHealth />
@@ -21,6 +22,14 @@ export default function Overview() {
         <div className="sm:col-span-2 lg:col-span-2">
           <FarmMap />
         </div>
+=======
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <CropHealth />
+        <WaterLevels />
+        <NutrientLevels />
+        <PestDetection />
+        <FarmMap />
+>>>>>>> e5202af4885ef584c97651adf360f35659edf107
         <ActionableInsights />
       </div>
     </div>

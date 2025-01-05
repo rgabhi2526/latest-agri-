@@ -10,7 +10,10 @@ import FarmMapping from '../pages/FarmMapping';
 import Analytics from '../pages/Analytics';
 import Alerts from '../pages/Alerts';
 import Settings from '../pages/Settings';
+<<<<<<< HEAD
 import Forum from '../pages/Forum';
+=======
+>>>>>>> e5202af4885ef584c97651adf360f35659edf107
 
 export const router = createBrowserRouter([
   {
@@ -52,10 +55,13 @@ export const router = createBrowserRouter([
         path: '/settings',
         element: <Settings />,
       },
+<<<<<<< HEAD
       {
         path: '/forum',
         element: <Forum />,
       },
+=======
+>>>>>>> e5202af4885ef584c97651adf360f35659edf107
     ],
   },
 ]);
